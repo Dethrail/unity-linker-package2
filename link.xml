@@ -1,5 +1,5 @@
  <linker>
-  <assembly fullname="unityexample.createparenttool">
+  <assembly fullname="unityexample.createparenttool2">
     <type fullname="*" preserve="all" />
   </assembly>
  </linker>
