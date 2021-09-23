@@ -1,5 +1,5 @@
 {
-  "name": "com.unityexample.createparent",
+  "name": "com.unityexample.createparent2",
   "version": "1.0.13",
   "displayName": "Create Parent For Selected",
   "description": "This tool adds a menu option to\n\nEdit > Create Parent for Selected\n\nIt creates an empty parent for the selected objects in the hierarchy.",
