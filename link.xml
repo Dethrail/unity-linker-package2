@@ -1,0 +1,5 @@
+ <linker>
+  <assembly fullname="unityexample.createparenttool">
+    <type fullname="*" preserve="all" />
+  </assembly>
+ </linker>
