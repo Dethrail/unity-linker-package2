@@ -17,7 +17,7 @@ namespace Test.Editor
         string IUnityLinkerProcessor.GenerateAdditionalLinkXmlFile(BuildReport report, UnityLinkerBuildPipelineData data)
         {
             // This is pretty ugly, but it was the only thing I could think of in order to reliably get the path to link.xml
-            const string linkXmlGuid = "a9121b83c8d271344a812e6978705a81"; // copied from link.xml.meta
+            const string linkXmlGuid = "23a14372294331c44a41ef172430495f"; // copied from link.xml.meta
             var assetPath = AssetDatabase.GUIDToAssetPath(linkXmlGuid);
             // assets paths are relative to the unity project root, but they don't correspond to actual folders for
             // Packages that are embedded. I.e. it won't work if a package is installed as a git submodule
